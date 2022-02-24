@@ -1,0 +1,157 @@
+
+body {
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container  {
+    flex-direction: column;
+    line-height: 10px;
+   
+    
+}
+
+.logo {
+    letter-spacing: 5px;
+    color: blue;
+    text-shadow: 1px 1px 20px rgb(118, 116, 212);
+    
+    
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+/*Efeito nos ícones de navegação */
+.nav {
+    color: white;
+    text-shadow: 1px 1px 20px rgb(136, 136, 255);
+}
+
+.nav:hover {
+    color: blue;
+    transition: 0.4s all
+} 
+
+
+/*Efeito do botao "Já sou sócio"*/
+
+.container {
+  
+ 
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+}
+
+.btn {
+    
+  
+    position: relative;
+    
+    
+    
+    font-weight: 300;
+    color: white;
+    border: 2px solid blue;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+.btn::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: blue;
+    z-index: -1;
+    transition: all .9s;
+    overflow: hidden;
+}
+
+.inscreva-se::before {
+    color: #fff;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+  
+.inscreva-se:hover::before {
+    color: #fff;
+    height: 600%;
+  }
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+aside {
+    margin-right: 200px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+
+}
+span {
+    color: rgb(74, 74, 255);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img {
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px ;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

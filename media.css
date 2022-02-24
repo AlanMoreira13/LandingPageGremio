@@ -1,0 +1,54 @@
+@media screen and (max-width: 760px) {
+
+   header {
+       flex-direction: column;
+   }
+
+   .container {
+       display: flex ;
+       flex-direction: row;
+       align-items: center;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   main {
+       flex-direction: column;
+   }
+   aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+   h2 {
+       font-size: 30px;
+       
+   }
+
+   form {
+       margin: 0 auto;
+       width: 100%;
+   }
+
+   input {
+       align-self: center;
+   }
+
+   ul {
+       text-align: center;
+   }
+
+   aside {
+       margin-right: 0;
+   }
+
+   img {
+       margin-top: 40px;
+   }
+
+
+}
+
+
+
