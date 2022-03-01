@@ -1,4 +1,4 @@
-Projeto criado a partir de um video do Youtuber Alexandre Santos, nesse projeto eu treinei um pouco do meu css e html.<br>
+Projeto criado a partir de um video do Youtuber Alexandre Santos, nesse projeto eu treino um pouco do meu css e html.<br>
 ##
 #Missão um projeto por dia 💪🚀
 ##
